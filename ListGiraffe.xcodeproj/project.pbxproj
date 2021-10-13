@@ -13,6 +13,7 @@
 		FDAF013227179A3F00215CBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDAF013127179A3F00215CBC /* Preview Assets.xcassets */; };
 		FDAF013D27179A3F00215CBC /* ListGiraffeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAF013C27179A3F00215CBC /* ListGiraffeTests.swift */; };
 		FDAF014827179A3F00215CBC /* ListGiraffeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAF014727179A3F00215CBC /* ListGiraffeUITests.swift */; };
+		FDAF015627179C7800215CBC /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAF015527179C7800215CBC /* DataStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		FDAF014327179A3F00215CBC /* ListGiraffeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListGiraffeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDAF014727179A3F00215CBC /* ListGiraffeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListGiraffeUITests.swift; sourceTree = "<group>"; };
 		FDAF014927179A3F00215CBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDAF015527179C7800215CBC /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		FDAF011E27179A3D00215CBC = {
 			isa = PBXGroup;
 			children = (
+				FDAF015527179C7800215CBC /* DataStore.swift */,
 				FDAF012927179A3D00215CBC /* ListGiraffe */,
 				FDAF013B27179A3F00215CBC /* ListGiraffeTests */,
 				FDAF014627179A3F00215CBC /* ListGiraffeUITests */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDAF012D27179A3D00215CBC /* ContentView.swift in Sources */,
+				FDAF015627179C7800215CBC /* DataStore.swift in Sources */,
 				FDAF012B27179A3D00215CBC /* ListGiraffeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

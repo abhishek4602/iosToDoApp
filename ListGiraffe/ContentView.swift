@@ -6,10 +6,12 @@
 //
 
 import SwiftUI
+import Combine
 
 struct ContentView: View {
+    @ObservedObject var taskStore=TaskStore()
     var body: some View {
-        Text("Hello, world!")
+        Text("First App")
             .padding()
     }
 }
